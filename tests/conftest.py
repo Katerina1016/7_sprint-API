@@ -6,3 +6,6 @@ from assistants.data_helper import Courier
 def courier():
     courier_create = Courier().registration_and_get_courier_data()
     yield courier_create
+
+
+
